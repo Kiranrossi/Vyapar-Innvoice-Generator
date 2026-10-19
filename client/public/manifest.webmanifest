@@ -1,0 +1,15 @@
+{
+  "name": "AGAM Billing",
+  "short_name": "AGAM Billing",
+  "description": "GST invoices, customers, payments and reports",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1C2B4A",
+  "theme_color": "#1C2B4A",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "invoice-generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm install --prefix worker && npm install --prefix client && npm run migrate:local --prefix worker",
+    "dev": "concurrently -n api,web -c blue,magenta \"npm run dev --prefix worker\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "deploy": "npm run deploy --prefix worker"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
