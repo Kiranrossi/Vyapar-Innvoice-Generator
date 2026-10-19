@@ -31,7 +31,7 @@ npm run migrate:remote --prefix worker
 npm run dev       # local Worker (with its own local database) + the app with live reload
 ```
 
-Open http://localhost:5173 (PIN 2000 on a fresh local database).
+Open http://localhost:5173 (PIN  on a fresh local database).
 
 ## What it does
 
